@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: Version 1.0
+author:
+  display_name: admin
+  login: admin
+  email: dhrumil.mehta@gmail.com
+  url: ''
+author_login: admin
+author_email: dhrumil.mehta@gmail.com
+wordpress_id: 137
+wordpress_url: http://www.politicalframing.com/?p=137
+date: '2013-08-01 15:24:21 -0500'
+date_gmt: '2013-08-01 15:24:21 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>Version 1.0 is complete but has not yet been released to the repository. The program can now analyze changes in framing over time.</p>
