@@ -3,12 +3,12 @@ layout: page
 status: publish
 published: true
 author:
-  display_name: admin
-  login: admin
-  email: dhrumil.mehta@gmail.com
+  display_name: 
+  login: 
+  email: 
   url: ''
-author_login: admin
-author_email: dhrumil.mehta@gmail.com
+author_login: 
+author_email: 
 wordpress_id: 45
 wordpress_url: http://www.politicalframing.com/?page_id=45
 date: '2013-07-17 06:35:15 -0500'
@@ -17,12 +17,15 @@ categories: []
 tags: []
 comments: []
 ---
-#Motivation
-In their seminal work,&nbsp;<span style="text-decoration: underline;">Metaphors we Live By</span>, George Lakoff and Mark Johnson argue that certain metaphorical structures are deeply embedded in our use of language and reflect &ldquo;linguistic frames&rdquo; through which we see the world. A linguistic frame is a conceptual domain through which we can understand an idea. For example, when talking about a sports match we might say "Team B demolished team A" or "Team A gained ground". In both cases we would be understanding sports through the frame of a battle. There are many other metaphors we use in our day to day life such as the "time as money (time as a fungible commodity)" metaphor, in which we will often talk about "saving/spending/wasting" time, although one cannot literally do these things with time; these metaphors are deeply embedded in our thought and manifested in our language. In <a href="http://www.amazon.com/The-Political-Mind-Cognitive-Scientists/dp/0143115685/ref=sr_1_1?ie=UTF8&amp;qid=1376053454&amp;sr=8-1&amp;keywords=political+mind">Political Mind</a> Lakoff&nbsp;conjectures that Democrats and Republicans in American politics use theses frames in different contexts. The goal of this project is to use computational methods to analyze framing in political speeches.</p>
-#Overview
+# Motivation
+In their seminal work, <span style="text-decoration: underline;">Metaphors we Live By</span>, George Lakoff and Mark Johnson argue that certain metaphorical structures are deeply embedded in our use of language and reflect &ldquo;linguistic frames&rdquo; through which we see the world. A linguistic frame is a conceptual domain through which we can understand an idea. For example, when talking about a sports match we might say "Team B demolished team A" or "Team A gained ground". In both cases we would be understanding sports through the frame of a battle. There are many other metaphors we use in our day to day life such as the "time as money (time as a fungible commodity)" metaphor, in which we will often talk about "saving/spending/wasting" time, although one cannot literally do these things with time; these metaphors are deeply embedded in our thought and manifested in our language. In <a href="http://www.amazon.com/The-Political-Mind-Cognitive-Scientists/dp/0143115685/ref=sr_1_1?ie=UTF8&amp;qid=1376053454&amp;sr=8-1&amp;keywords=political+mind">Political Mind</a> Lakoff conjectures that Democrats and Republicans in American politics use theses frames in different contexts. The goal of this project is to use computational methods to analyze framing in political speeches.</p>
+
+# Overview
 In this project, we have mined the past 15 years worth of speeches from US Senate and House of Representatives and are studying its rhetoric by creating a model of rhetorical framing. First, the speeches are partitioned by topic and the classifier is trained to classify a novel speech into its appropriate speech category. Having ascertained that the program can do this with a fair amount of accuracy, we can then feed the classifier a frame rather than a speech. A "frame" is modeled as a "bag-of-words" that contains words that are highly associated with a particular term. Example frames can be found in "/data/frames". The program will put the log-likelihoods table in the "/results/" directory where they can be extracted and viewed. We can extrapolate further infromation from these results.</p>
-#Data
-*Please note that data is not is included in the source-control, actual dataset is 2GB and growing*</p>
+
+# Data
+*Please note that data is not is included in the source-control, actual dataset is 2GB and growing*
+
 <ul>
 <li>10,000 speeches were mined for each of the following topics: "Afghanistan, defecit, education,foreign+policy, health+care, immigration, Iraq, marriage, social+security, welfare". Speeches were mined from the "capitol words api" - http://capitolwords.org/api</li>
 <li>Frames were built using my "framemaker.py" and Princeton's Wordnet database.</li><br />
@@ -55,10 +58,10 @@ The full results are provided in the files at the end of this section. The pictu
 ![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/immigration-crime-moving.png)
 ------------ caption: Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)
 
-<p>&nbsp;</p>
 <blockquote><p><strong>Remaining Results from Version 0.0 are found in this file: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/DRSpeechData.xlsx">DRSpeechData</a></strong></p>
 <p><strong>Results from version 1.0 (temporal analysis) are found here: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/ImmigrationPPT.pptx">ImmigrationPPT</a></strong></blockquote></p>
-<h1 id="conclusions">Conclusions</h1><br />
+
+# Conclusions
 This project is currently on version 1.0 - and is a preliminary pass at attempting to understand framing of political rhetoric computationally. I intend to make the methods more rigorous and the outputs more human-readable. The hope is that this software will one day analyze every member of congress individually, always seeking rhetorical shifts and anomalies to inform journalists of where new stories are. Furthermore, it aspires to also be a helpful tool to allow researchers to study the changes in rhetoric in any deliberative body that releases its records for public view over time. We intend to add many other types of document analysis focusing on computational rhetorical analysis.</p>
 <h1 id="references">References</h1></p>
 <p>[1] Lakoff, George&nbsp;and Mark Johnson. Metaphors We Live By.&nbsp;Chicago: University of Chicago, 1980. <em>Print</em>.</p>
