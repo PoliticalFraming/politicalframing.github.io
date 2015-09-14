@@ -44,7 +44,7 @@ Frames are modeled as bags of words approximately 500 words in size. The user en
 The full results are provided in the files at the end of this section. The pictures below show how to interpret the results. For this, we do a case study following the "crime" frame in speeches related to immigration.</p>
 <p>Results for Classifier A (from Version 0.0):</p>
 
------------------ framingdata1 image --------------------
+![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/FramingData1.png)
 ------------ caption: Here we can see a strong affiliation for example, between the crime frame and the immigration topic."
 
 <p>One Result from Classifier B (immigration topic only):</p>
