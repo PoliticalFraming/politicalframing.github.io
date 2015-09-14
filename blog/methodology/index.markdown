@@ -50,15 +50,15 @@ The full results are provided in the files at the end of this section. The pictu
 <p>Results for Classifier A (from Version 0.0):</p>
 
 ![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/FramingData1.png)
------------- caption: Here we can see a strong affiliation for example, between the crime frame and the immigration topic."
+*Here we can see a strong affiliation for example, between the crime frame and the immigration topic."*
 
 <p>One Result from Classifier B (immigration topic only):</p>
 ![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/FramingData2.png)
------------- caption: Looking further at the speeches only within the immigration topic, we can see that the high prevalence of the crime frame is attributed to Republicans moreso than Democrats.
+*Looking further at the speeches only within the immigration topic, we can see that the high prevalence of the crime frame is attributed to Republicans moreso than Democrats.*
 
 <p>Changes over time in Classifier B (Version 1.0 Results):</p>
 ![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/immigration-crime-moving.png)
------------- caption: Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)
+*Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)*
 
 <blockquote><p><strong>Remaining Results from Version 0.0 are found in this file: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/DRSpeechData.xlsx">DRSpeechData</a></strong></p>
 <p><strong>Results from version 1.0 (temporal analysis) are found here: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/ImmigrationPPT.pptx">ImmigrationPPT</a></strong></blockquote></p>
@@ -73,5 +73,5 @@ This project is currently on version 1.0 - and is a preliminary pass at attempti
 
 **Please send questions or comments to:**
 	
-* al [dot] johri [at] gmail [dot] com
-* dhrumil [dot] mehta [at] gmail [dot] com
+- al [dot] johri [at] gmail [dot] com
+- dhrumil [dot] mehta [at] gmail [dot] com
