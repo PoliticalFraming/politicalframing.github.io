@@ -60,7 +60,7 @@ The full results are provided in the files at the end of this section. The pictu
 ![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/immigration-crime-moving.png)
 *Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)*
 
-<blockquote><p><strong>Remaining Results from Version 0.0 are found in this file: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/DRSpeechData.xlsx">DRSpeechData</a></strong></p>
+<blockquote><p><strong>Remaining Results from Version 0.0 are found in this file: <a href="https://github.com/PoliticalFraming/politicalframing.github.io/raw/master/blog/methodology/DRSpeechData.xlsx">DRSpeechData</a></strong></p>
 <p><strong>Results from version 1.0 (temporal analysis) are found here: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/ImmigrationPPT.pptx">ImmigrationPPT</a></strong></blockquote></p>
 
 # Conclusions
@@ -72,6 +72,5 @@ This project is currently on version 1.0 - and is a preliminary pass at attempti
 <p>[3]&nbsp;&nbsp;Rennie, J.D.M., Shih, L., Teevan, J. and Karger, D.R.&nbsp;Tackling the Poor Assumptions of Naive Bayes Text&nbsp;Classifiers. Proceedings of the Twentieth International&nbsp;Conference on Machine Learning (ICML). 2003.</p>
 
 **Please send questions or comments to:**
-	
 - al [dot] johri [at] gmail [dot] com
 - dhrumil [dot] mehta [at] gmail [dot] com
