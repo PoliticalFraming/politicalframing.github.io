@@ -31,7 +31,7 @@ In this project, we have mined the past 15 years worth of speeches from US Senat
 ###(1) Modeling Frames:
 Frames are modeled as bags of words approximately 500 words in size. The user enters a "seed" word to query Princeton's WordNet database, for example "crime". The program will then find definitions of "crime" to which the user will answer yes or no in order to disambiguate the proper sense of the word. After that, the program will mine wordnet for a few words in the semantic vecinity of "crime" and ask the user if those definitions are valid. After what is generally 15 or so questions, the program will output a 500 word "frame" to track the concept that the user is trying to follow. An example of the "crime frame" that I built is found below:<br />
 
------------------ crimeframe image --------------------
+![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/crimeframe.jpg)
 
 ###(2) Building Classifiers
 <strong>Classifier A:</strong> A multinomial naive bayes classifier trained to classify a novel speech into one of the topics mentioned in the "data" section above. The classifier can classify a novel speech with approximately 70% accuracy on 7 topics (chance would be ~14% so it works pretty well).</p>
@@ -48,11 +48,11 @@ The full results are provided in the files at the end of this section. The pictu
 ------------ caption: Here we can see a strong affiliation for example, between the crime frame and the immigration topic."
 
 <p>One Result from Classifier B (immigration topic only):</p>
------------------ FramingData2.png image --------------------
+![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/FramingData2.png)
 ------------ caption: Looking further at the speeches only within the immigration topic, we can see that the high prevalence of the crime frame is attributed to Republicans moreso than Democrats.
 
 <p>Changes over time in Classifier B (Version 1.0 Results):</p>
------------------ immigration-crime-moving image --------------------
+![](https://raw.githubusercontent.com/PoliticalFraming/politicalframing.github.io/master/blog/methodology/immigration-crime-moving.png)
 ------------ caption: Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)
 
 <p>&nbsp;</p>
