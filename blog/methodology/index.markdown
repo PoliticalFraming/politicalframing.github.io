@@ -66,7 +66,7 @@ Results for Classifier A (from Version 0.0):
 *Changes in use of crime frame over time. Plot of ratio of log likelihoods. (not shown on log scale)*
 
 <blockquote><p><strong>Remaining Results from Version 0.0 are found in this file: <a href="https://github.com/PoliticalFraming/politicalframing.github.io/raw/master/blog/methodology/DRSpeechData.xlsx">DRSpeechData</a></strong></p>
-<!--p><strong>Results from version 1.0 (temporal analysis) are found here: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/ImmigrationPPT.pptx">ImmigrationPPT</a></strong></blockquote></p-->
+<!--<strong>Results from version 1.0 (temporal analysis) are found here: <a href="http://www.politicalframing.com/wp-content/uploads/2013/07/ImmigrationPPT.pptx">ImmigrationPPT</a></strong></blockquote>-->
 
 
 # Conclusions
